@@ -19,12 +19,14 @@ var allFeeds = [
         url: 'http://feeds.feedburner.com/html5rocks'
     }, {
         name: 'Linear Digressions',
+        // name: '', // Test 3: Empty string test.
         url: 'http://feeds.feedburner.com/udacity-linear-digressions'
+        // url: '', // Test 4: Empty string test.
     }
 ];
 
 
-var allFeeds = []; // Test 1: Check what Jasmine does.
+// var allFeeds = []; // Test 1: Check what Jasmine does.
 
 /*  Test 2: Check what happens if allFeeds[0] == allFeeds[1].
 
